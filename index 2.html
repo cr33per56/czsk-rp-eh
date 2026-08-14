@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cz/Sk RP [EH] | Emergency Hamburg</title>
+  <meta name="description" content="Cz/Sk RP [EH] – československý roleplay server pro Emergency Hamburg.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">
+      <img src="logo.jpeg" alt="Cz/Sk RP [EH] logo">
+      <span>Cz/Sk RP <b>[EH]</b></span>
+    </a>
+    <button class="menu" aria-label="Otevřít menu">☰</button>
+    <nav>
+      <a href="#home">Domů</a>
+      <a href="#about">O serveru</a>
+      <a href="#rules">Pravidla</a>
+      <a href="#join">Připojit se</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="glow"></div>
+      <div class="hero-content">
+        <p class="eyebrow">EMERGENCY HAMBURG • CZ/SK ROLEPLAY</p>
+        <h1>Cz/Sk RP <span>[EH]</span></h1>
+        <p class="lead">Zažij propracovaný roleplay v Emergency Hamburg. Přidej se k české a slovenské komunitě.</p>
+        <div class="buttons">
+          <a class="btn primary" href="https://discord.gg/EHJggmQst" target="_blank" rel="noopener">Připojit se na Discord</a>
+          <a class="btn secondary" href="#about">Zjistit více</a>
+        </div>
+      </div>
+      <div class="hero-logo">
+        <img src="logo.jpeg" alt="Logo Cz/Sk RP [EH]">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">NÁŠ SERVER</p>
+      <h2>Roleplay, který má atmosféru</h2>
+      <p class="section-intro">Cz/Sk RP [EH] je komunitní server pro hráče Emergency Hamburg, kteří chtějí hrát férově, užít si kvalitní RP a poznat další CZ/SK hráče.</p>
+      <div class="cards">
+        <article><div class="icon">🚓</div><h3>Roleplay</h3><p>Hraj svou roli, komunikuj s ostatními a vytvářej vlastní příběhy.</p></article>
+        <article><div class="icon">🤝</div><h3>Komunita</h3><p>Česká a slovenská komunita na jednom místě.</p></article>
+        <article><div class="icon">⚡</div><h3>Akce</h3><p>Společné situace, zásahy a další RP momenty.</p></article>
+      </div>
+    </section>
+
+    <section id="rules" class="section dark">
+      <p class="eyebrow">DŮLEŽITÉ</p>
+      <h2>Pravidla serveru</h2>
+      <div class="rules">
+        <div><span>01</span><p><b>Respekt</b><br>Chovej se slušně k ostatním hráčům i vedení.</p></div>
+        <div><span>02</span><p><b>Žádný trolling</b><br>Nenič RP ostatním hráčům úmyslným trollením.</p></div>
+        <div><span>03</span><p><b>Hraj svou roli</b><br>Dodržuj pravidla RP a snaž se o realistické situace.</p></div>
+        <div><span>04</span><p><b>Poslouchej staff</b><br>Pokyny moderátorů a vedení serveru respektuj.</p></div>
+      </div>
+      <p class="note">* Pravidla můžeš později upravit podle skutečných pravidel vašeho serveru.</p>
+    </section>
+
+    <section id="join" class="join section">
+      <div>
+        <p class="eyebrow">PŘIDEJ SE</p>
+        <h2>Čekáme právě na tebe</h2>
+        <p>Připoj se na náš Discord a zjisti, co se právě děje na Cz/Sk RP [EH].</p>
+      </div>
+      <a class="btn primary" href="https://discord.gg/EHJggmQst" target="_blank" rel="noopener">Otevřít Discord →</a>
+    </section>
+  </main>
+
+  <footer>
+    <img src="logo.jpeg" alt="" class="footer-logo">
+    <div><strong>Cz/Sk RP [EH]</strong><br><small>Emergency Hamburg • CZ/SK Roleplay</small></div>
+    <span>© 2026 Cz/Sk RP [EH]</span>
+  </footer>
+
+  <script>
+    const menu = document.querySelector('.menu');
+    const nav = document.querySelector('nav');
+    menu.addEventListener('click', () => nav.classList.toggle('open'));
+    document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => nav.classList.remove('open')));
+  </script>
+</body>
+</html>
